@@ -84,6 +84,8 @@ h6 {
 .user-img {
     width: 200px;
     height: 200px;
+
+    border-radius: 50%;
 }
 
 .info-block {
@@ -125,6 +127,11 @@ h6 {
 
 .repos {
     margin-top: 20px;
+    padding: 15px;
+}
+
+.repos:nth-child(odd) {
+    background: rgb(250, 250, 250);
 }
 
 .repos-name {
@@ -138,5 +145,3 @@ h6 {
 .repos-link {
     text-decoration: none;
 }
-
-
