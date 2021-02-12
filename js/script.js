@@ -32,7 +32,7 @@ form.addEventListener('submit', event => {
     fetch(`https://api.github.com/users/${inputUserName}/repos`)
         .then(response => response.json())
         .then(data => {
-            const node = document.getElementById('search-main');
+            const node = document.getElementById('repos-block');
         
             while (node.firstChild) {
                 node.removeChild(node.firstChild);
